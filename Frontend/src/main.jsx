@@ -5,7 +5,7 @@ import App from "./App.jsx";
 const initialContext = {
   isAuthorized: false,
   user: {},
-  url: "http://localhost:4000",
+  url: "https://job-seeking-backend-h5r3.onrender.com",
 };
 
 export const Context = createContext(initialContext);
